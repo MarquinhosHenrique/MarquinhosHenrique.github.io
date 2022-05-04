@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    background-color: #A78C68;
+    display: flex;
+}
+header .logo_header{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo_header img{
+    width: 200px;
+}
+header .menu_header{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .menu_header nav{
+    width: 80%;
+}
+header .menu_header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header .menu_header nav ul li, header a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+header .menu_header nav ul li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+header .login_cx{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .login_cx a{
+    background-color: grey;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+header .login_cx a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: white;
+    color: gray;
+    box-shadow: 0px 2px 5px black;
+}
+
+.form form {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid #000;
+}
+
+.form img {
+    max-width: 200px; 
+    max-height: 400px;
+    border: 1px solid #ccc;
+}
+
+.servicos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 250px;
+    padding-bottom: 180px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+#inputa {
+    margin-left: 0;
+}
+
+.sphere {
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ddd;
+    z-index: 2;
+}
+
+.sphere img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.box {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.box h1 {
+    margin-bottom: 50px;
+}
+
+.sphere-body {
+    position: relative;
+    width: 180px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ccc;
+    border-radius: 60px;
+    margin-top: -80px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.sphere-body h1 {
+    margin: 15px;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+#formbutton {
+    float: right;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 5px 8px;
+    border-radius: 12px;
+}
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: #A78C68;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 30px #000000;
+}
+
+.cx_informacoes{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes, .informacoes2, .informacoes3{
+    width: 20vw;
+    padding: 10px;
+}
+.informacoes li, .informacoes2 li, .informacoes3 li{
+    list-style: none;
+    margin: 0px 0px 5px 20px
+}
+.informacoes a, .informacoes2 a, .informacoes3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.informacoes a:hover, .informacoes2 a:hover{
+    text-decoration: underline;
+}
+.informacoes2 ul{
+    text-align: left;
+}
+hr{
+    height: 150px;
+    color: grey;
+}
+

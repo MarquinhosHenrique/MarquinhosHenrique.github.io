@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    background-color: #A78C68;
+    display: flex;
+}
+header .logo_header{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo_header img{
+    width: 200px;
+}
+header .menu_header{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .menu_header nav{
+    width: 80%;
+}
+header .menu_header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header .menu_header nav ul li, header a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+header .menu_header nav ul li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+header .login_cx{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .login_cx a{
+    background-color: grey;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+header .login_cx a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: white;
+    color: gray;
+    box-shadow: 0px 2px 5px black;
+}
+.Conteudo_principal{
+    width: 100%;
+    background-image: url(../img/people-2557396_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    min-height: 500px;
+    padding-top: 60px;
+}
+main{
+    margin: 40px 0px 40px 0px;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteudo{
+    margin: 20px;
+    width: 80%;
+    height: 300px;
+    border: 3px solid black;
+}
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: #A78C68;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 30px #000000;
+}
+
+.cx_informacoes{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes, .informacoes2, .informacoes3{
+    width: 20vw;
+    padding: 10px;
+}
+.informacoes li, .informacoes2 li, .informacoes3 li{
+    list-style: none;
+    margin: 0px 0px 5px 20px
+}
+.informacoes a, .informacoes2 a, .informacoes3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.informacoes a:hover, .informacoes2 a:hover{
+    text-decoration: underline;
+}
+.informacoes2 ul{
+    text-align: left;
+}
+hr{
+    height: 150px;
+    color: grey;
+}
+.listaparavc{
+    display: flex;
+    justify-content: space-around;
+    width: 480px;
+    color: lightgray;    
+}
+.centralizar{
+    margin: 0 auto;
+    text-align: center;
+}
+.titulocinza{
+    color: lightgray;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.botao{
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+.botao:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: gray;
+    color: white;
+    box-shadow: 0px 2px 5px black;
+}
+.botao a{
+    text-decoration: none;
+    color: #000000;
+}
+.margem10{
+   margin: 10px;
+}
+.titulopreto{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.mosaico{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.paravccursos{
+    width: 600px;
+}
+.botaocursos{
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: lightgray;
+    width: 180px;
+    border-radius: 50px;
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: small;
+    height: 30px;
+    margin:10px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.botaocursos a,.botaovestibular a{
+    text-decoration: none;
+    color: black;
+}
+.botaocursos:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: gray;
+    color: white;
+    box-shadow: 0px 2px 5px black;
+}
+.container{
+    width: 1024px;
+    display: flexbox;      
+}
+.divfoto{
+    height: 200px;
+    width: 400px;
+    float: left;    
+}
+.descricao{
+    height: 200px;
+    width: 600px;  
+    float: left; 
+    overflow-y:scroll; 
+}
+.bordacinza{
+    border-style: solid;  
+    border-color: lightgray;  
+}
+.fotocurso{
+    height:150px ;
+    border-bottom: lightgray;
+    border-bottom-style: solid;
+   line-height: 150px;
+   color: lightgray;
+   font-size: xx-large;
+}
+.cursomensalidade{
+    font-size: 40px;
+    font-weight: bolder;
+    float: left;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 400px;
+}
+.cursoconteudo{
+    height: 400px;
+    border-style: solid;  
+    border-color: lightgray;
+    line-height: 400px; 
+    font-size: 70px;
+    color: lightgrey;
+}
+.pading10{
+    padding: 10px;
+}
+.selectvestibular{
+    width: 400px;
+    margin: 5px;
+}
+.subtitulo{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;        
+}
+.subtitulo2{
+    color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 150px;      
+}
+.inputvestibular{
+    height: 30px;
+    width: 600px;
+}
+.alinhamentolateral{
+    float: left;
+}
+.botaovestibular{
+    border-style: solid;
+    border-width: 0.2px;    
+    width: 180px;
+    border-radius: 50px;
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: x-large;
+    height: 50px;
+    margin:10px;   
+    justify-content: center; 
+    background-color: lightgrey;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+

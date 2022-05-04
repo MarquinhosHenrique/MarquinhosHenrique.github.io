@@ -124,15 +124,39 @@ main .area_ancoragem nav ul{
 main .area_ancoragem nav ul li{
     list-style: none;
     background-color: rgb(216, 216, 216);
+    width: 150px;
+    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
+    border-radius: 25px;
+}
+main .area_ancoragem nav ul li:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 3px 0px;
+    transition: 0.3s;
+    color: #cc5c00;
+}
+main .area_ancoragem nav ul li a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #cc5c00;
 }
 main .area_ancoragem nav ul li a{
+    margin-top: 7px;
+    font-weight: bolder;
     text-decoration: none;
+    width: 100%;
     font-size: 30px;
     color: #253f2d;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+ 
+:target {
+  scroll-margin-top: .8em;
 }
 h1{
     margin-bottom: 40px;
