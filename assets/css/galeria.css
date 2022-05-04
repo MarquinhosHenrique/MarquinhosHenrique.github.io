@@ -96,8 +96,9 @@ header .perfil img{
 main{
     background-color: transparent;
     margin: 0 auto;
-    margin: 200px 0px 150px 0px;
-    width: 100%;
+    width: auto;
+    max-width: 70%;
+    padding: 400px 0px 400px 0px;
     height: auto;
     min-height: 200px;
     text-align: center;
