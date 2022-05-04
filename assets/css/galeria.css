@@ -4,10 +4,16 @@
     box-sizing: border-box;font-family: 'Anek Telugu', sans-serif;
 }
 body{
-    background-color: #e6e6e6;
-}
-header{
-    background-color: #253f2d;
+    background-color: #f0ede5;
+    background-image: url(../img/fundo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}header{
+    background-image: url(../img/banner_header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: local;
     width: 100%;
     height: 200px;
     display: flex;
@@ -96,12 +102,37 @@ header .perfil img{
 main{
     background-color: transparent;
     margin: 0 auto;
-    width: auto;
-    max-width: 70%;
-    padding: 400px 0px 400px 0px;
+    margin: 150px 0px 150px 0px;
+    width: 100%;
     height: auto;
     min-height: 200px;
     text-align: center;
+}
+main .area_ancoragem{
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+main .area_ancoragem nav{
+    width: 70%;
+    margin: 20px;
+}
+main .area_ancoragem nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+main .area_ancoragem nav ul li{
+    list-style: none;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+main .area_ancoragem nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #253f2d;
 }
 h1{
     margin-bottom: 40px;
